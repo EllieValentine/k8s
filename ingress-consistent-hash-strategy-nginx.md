@@ -1,3 +1,4 @@
+```
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
@@ -23,3 +24,4 @@ spec:
                 name: ${SERVICE_NAME}
                 port:
                   number: 80
+```
