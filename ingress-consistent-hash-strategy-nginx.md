@@ -12,7 +12,6 @@ metadata:
     nginx.ingress.kubernetes.io/affinity-mode: persistent
     nginx.ingress.kubernetes.io/session-cookie-hash: sha1
 spec:
-  ingressClassName: nginx
   rules:
     - host: ${HOST}
       http:
